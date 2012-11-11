@@ -1,0 +1,329 @@
+* {
+     outline: medium none;
+}
+
+a {
+     text-decoration: none;
+     font-family: 'Montserrat',sans-serif;
+}
+
+body {
+	background:#e9e9e3;
+    
+}
+
+h1 {
+    
+}
+
+#frontpage {
+     background-clip: border-box;
+     background-color: transparent;
+     background-image: url("images/frontpage2.png");
+     background-origin: padding-box;
+     background-repeat: no-repeat;
+     background-size: 100% auto;
+     height: 490px;
+     left: 50%;
+     margin-left: -375px;
+     margin-top: -248px;
+     position: absolute;
+     top: 50%;
+     width: 740px;
+}
+span{
+    background: none repeat scroll 0 0 black;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+}
+#logoroll {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("images/logoroll.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 145px auto;
+    height: 31px;
+    left: 30px;
+    position: absolute;
+    top: 20px;
+    width: 114px;
+}
+#logoroll:hover{
+	width:150px;
+}
+/* ---------------------------------------------------- DRIBBLE */
+
+#dribble {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 112px;
+    margin-left: 130px;
+    margin-top: 120px;
+    overflow: hidden;
+    position: absolute;
+    width: 212px;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+    opacity:.5;
+}
+#dribblehover {
+    background: none repeat scroll 0 0 black;
+    border-radius: 10px 10px 10px 10px;
+    color: #e9e9e3;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    margin: 37px auto 25px 23%;
+    display:none;  
+}
+#dribbble{
+}
+/* ---------------------------------------------------- INSTAGRAM */
+#instagram {
+    height: 100px;
+    margin-left: 408px;
+    margin-top: 65px;
+    position: absolute;
+    width: 100px;
+    opacity:.5;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+#instagramhover {
+    background: none repeat scroll 0 0 black;
+    border-radius: 10px 10px 10px 10px;
+    color: #e9e9e3;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    margin: 25px auto;
+    margin-left: -15%;
+    display:none;  
+}
+#instagram:hover #instagramhover{
+	display:block;
+}
+/* ---------------------------------------------------- JAMS */
+#jams {
+    height: 90px;
+    margin-left: 4px;
+    margin-top: 29px;
+    position: absolute;
+    width: 90px;
+}
+.jamshover {
+    background: none repeat scroll 0 0 black;
+    border-radius: 10px 10px 10px 10px;
+    color: #e9e9e3;
+    cursor: pointer;
+    display: none;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+    margin: 21px auto 25px 12%;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+}
+#jams:hover .jamshover{
+	display:block;
+}
+/* ---------------------------------------------------- ART */
+#art {
+    height: 60px;
+    margin-left: 64px;
+    margin-top: 229px;
+    position: absolute;
+    width: 34px;
+}
+.arthover {
+    border-radius: 10px 10px 10px 10px;
+    color: #e9e9e3;
+    cursor: pointer;
+    display: none;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+    margin: 9px auto 25px -31%;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    background: black;
+}
+#art:hover .arthover{
+	display:block;
+}
+/* ---------------------------------------------------- UX / UI */
+#uxui {
+    height: 60px;
+    margin-left: 365px;
+    margin-top: 229px;
+    position: absolute;
+    width: 44px;
+}
+.uxuihover {
+    background: none repeat scroll 0 0 black;
+    border-radius: 10px 10px 10px 10px;
+    color: #e9e9e3;
+    cursor: pointer;
+    display: none;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+    margin: 9px auto 25px -52%;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    text-align: center;
+}
+#uxui:hover .uxuihover {
+    display: block;
+}
+/* ---------------------------------------------------- UX / UI */
+#uxui {
+    height: 60px;
+    margin-left: 365px;
+    margin-top: 229px;
+    position: absolute;
+    width: 44px;
+}
+.uxuihover {
+    background: none repeat scroll 0 0 black;
+    border-radius: 10px 10px 10px 10px;
+    color: #e9e9e3;
+    cursor: pointer;
+    display: none;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+    margin: 9px auto 25px -52%;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    text-align: center;
+}
+#uxui:hover .uxuihover {
+    display: block;
+}
+/* ---------------------------------------------------- ABOUT */
+#about {
+    height: 40px;
+    margin-left: 463px;
+    margin-top: 214px;
+    position: absolute;
+    width: 42px;
+}
+.abouthover {
+    background: none repeat scroll 0 0 black;
+    border-radius: 10px 10px 10px 10px;
+    color: #e9e9e3;
+    cursor: pointer;
+    display: none;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+    margin: -8px auto 25px -52%;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+#about:hover .abouthover {
+    display: block;
+}
+#aboutimage img{
+	width:100%;
+}
+/* ---------------------------------------------------- PORTFOLIO */
+#port {
+    height: 115px;
+    margin-left: 659px;
+    margin-top: 174px;
+    position: absolute;
+    width: 45px;
+}
+.porthover {
+    background: none repeat scroll 0 0 black;
+    border-radius: 10px 10px 10px 10px;
+    color: #e9e9e3;
+    cursor: pointer;
+    display: none;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+    margin: 37px auto 25px -83%;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+#port:hover .porthover {
+    display: block;
+}
+/* ---------------------------------------------------- CALENDAR */
+
+#calendar {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 17px;
+    height: 78px;
+    margin-left: 651px;
+    margin-top: 31px;
+    position: absolute;
+    text-align: center;
+    width: 78px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-top: 14px;
+    cursor:default;
+}
+
+/* ---------------------------------------------------- LIGHT */
+
+#light{
+    background: none repeat scroll 0 0 transparent;
+    height: 40px;
+    margin-left: 550px;
+    margin-top: 155px;
+    position: absolute;
+    width: 50px;
+}
+
+/* ---------------------------------------------------- CAT */
+
+#zzz {
+	background: none;
+	height: 90px;
+	margin-left: 508px;
+	margin-top: 395px;
+	position: absolute;
+	width: 120px;
+}
+#zzz:hover img{
+	display:block;
+}
+#zzz img{
+	display:none;
+	background:#e9e9e3;
+	border-radius:15px;
+}
+
+/* ---------------------------------------------------- HOVER */
+.opacityhover{
+	opacity:1 !important;
+}
+.display{
+	display:block !important;
+}
